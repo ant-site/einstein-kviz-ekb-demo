@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex, nofollow" data-publish>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Эйнштейн квиз · Квизы и командные игры</title>
+<meta name="description" content="Вопросы от классики до музыки и кино, розыгрыши и призы, центр города. Выбираете день и время – мы подтверждаем запись.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Квизы в Екатеринбурге для друзей, семьи и коллег">
+<meta property="og:description" content="Вопросы от классики до музыки и кино, розыгрыши и призы, центр города. Выбираете день и время – мы подтверждаем запись.">
+<meta property="og:image" content="assets/hero.webp">
+<link rel="preload" as="image" href="assets/hero.webp" fetchpriority="high">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Crect x=%276%27 y=%276%27 width=%2720%27 height=%2720%27 rx=%275%27 fill=%27%23c9f24a%27/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@500;600&family=Onest:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root { --c-canvas: #131511; --c-surface: #1d201b; --c-ink: #f1f3ec; --c-ink-soft: #a8af9f; --c-accent: #c9f24a; --c-accent-ink: #111406; --c-accent-deep: #c9f24a; --f-display: "Unbounded", "Arial Black", system-ui, sans-serif; --f-text: "Onest", "Segoe UI", system-ui, sans-serif; --h1k: 0.8; }
+
+/* Лента (мотив 21st.dev Uncurling Ribbon Text): лента разворачивается из спирали при прокрутке, на ней фраза, ✦ и бледные повторы */
+.rib { position: relative; height: 240vh; width: 100vw; margin-left: calc(50% - 50vw); background: var(--c-surface); margin-top: clamp(56px, 8vw, 96px); }
+.rib__stick { position: sticky; top: 0; height: 100vh; height: 100svh; overflow: hidden; isolation: isolate; }
+.rib__cv { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.rib__kick { position: absolute; left: 0; right: 0; top: clamp(76px, 11vh, 120px); margin: 0; display: flex; justify-content: center; align-items: center; gap: 14px; padding: 0 16px; font: 600 .78rem/1 var(--f-text); letter-spacing: .2em; text-transform: uppercase; color: var(--c-ink-soft); text-align: center; }
+.rib__kick::before, .rib__kick::after { content: ""; width: clamp(24px, 6vw, 72px); height: 1px; background: var(--c-accent); opacity: .7; }
+.rib__who { position: absolute; left: 0; right: 0; bottom: clamp(24px, 7vh, 68px); margin: 0 auto; padding: 0 max(16px, 5vw); max-width: 56ch; text-align: center; font: 400 clamp(.92rem, 1.3vw, 1.05rem)/1.5 var(--f-text); color: var(--c-ink-soft); }
+.rib__sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+@media (max-width: 640px) { .rib { height: 210vh; } .rib__kick { font-size: .68rem; letter-spacing: .14em; } .rib__who { bottom: 92px; } }
+@media (prefers-reduced-motion: reduce) { .rib { height: auto; } .rib__stick { position: relative; height: min(100svh, 720px); } }
+.s-foot .sign { display: inline-flex; align-items: center; gap: 10px; font-size: .9rem; color: var(--c-ink-soft); }
+</style>
+<link rel="stylesheet" href="style-prod.css">
+</head>
+<body class="s-prod" id="top" data-wa="79021500347" data-tg="" data-max="">
+<header class="s-bar" data-s-bar>
+  <a class="s-bar__brand" href="#top"><i aria-hidden="true"></i>Эйнштейн квиз</a>
+  <div class="s-bar__right">
+    <a class="s-bar__tel" href="tel:+79021500347">+7 (902) 150-03-47</a>
+    <a class="s-btn s-btn--sm" href="#widget">Записаться на игру</a>
+  </div>
+</header>
+<main>
+  <section class="s-hero">
+    <div class="s-hero__text">
+      <p class="s-eyebrow">Эйнштейн квиз · Екатеринбург</p>
+      <h1>Квизы в Екатеринбурге для друзей, семьи и коллег</h1>
+      <p class="s-lead">Вопросы от классики до музыки и кино, розыгрыши и призы, центр города. Выбираете день и время – мы подтверждаем запись.</p>
+      <ul class="s-ticks"><li>Рейтинг 5,0 на Яндекс.Картах</li><li>Вопросы разных тем – найдётся тема каждому</li><li>Корпоративы и тимбилдинги – по заявке</li></ul>
+      <p class="s-rating"><b>5,0</b> на Яндекс.Картах · 26 отзывов</p>
+      <figure class="s-hero__photo"><img class="" src="assets/hero.webp" alt="Две компании за столами играют в командный квиз и обсуждают ответ" loading="lazy" decoding="async"></figure>
+    </div>
+    <div class="s-hero__widget" id="widget"><form class="s-widget" data-s-booking data-days="7" data-closed="" data-slots="14:00,16:00,18:00" data-message="Здравствуйте! Хочу записаться на игру: {услуга}, {день} в {время}. Сколько нас будет – напишу ниже." onsubmit="return false">
+      <h2 class="s-widget__title">Запись на игру</h2>
+      <fieldset><legend>Услуга</legend>
+        <div class="s-chips s-chips--col"><label class="s-chip s-chip--row"><input type="radio" name="svc" value="0" data-name="Эйнштейн квиз" data-price="700" data-from="" data-min="" checked><span>Эйнштейн квиз</span><b>700 ₽</b></label><label class="s-chip s-chip--row"><input type="radio" name="svc" value="1" data-name="Детективный квиз, 2,5 ч" data-price="700" data-from="" data-min=""><span>Детективный квиз, 2,5 ч</span><b>700 ₽</b></label></div>
+      </fieldset>
+      <fieldset><legend>День</legend><div class="s-chips" data-s-days></div></fieldset>
+      <fieldset><legend>Время</legend><div class="s-chips" data-s-times></div></fieldset>
+      <div class="s-bubble" aria-live="polite"><span class="s-bubble__label">Ваше сообщение</span><p data-s-bubble></p></div>
+      <div class="s-send">
+        <a class="s-btn s-btn--wide" data-s-msg="whatsapp" href="#">Записаться в WhatsApp</a>
+        
+      </div>
+      <p class="s-send__note" data-s-copied hidden>Текст скопирован – вставьте его в чат.</p>
+      
+    </form></div>
+    <figure class="s-hero__bg" aria-hidden="true"><img class="" src="assets/hero.webp" alt="Две компании за столами играют в командный квиз и обсуждают ответ" decoding="async" fetchpriority="high"></figure>
+  </section>
+
+  <section class="s-section s-reveal">
+    <header class="s-section__head"><h2>Что вас ждёт на игре</h2></header>
+    <div class="s-incl">
+      <div><h3>Входит</h3><ul><li>Вопросы разных тем: классика, музыка, кино и современные тренды</li><li>Организаторы ведут игру профессионально</li><li>Розыгрыши и призы по ходу вечера</li><li>Центр города, удобно добираться</li></ul></div>
+      <div><h3>Отдельно, если нужно</h3><ul><li>Еда и напитки – по меню площадки</li><li>Условия для корпоративов – уточним при заявке</li></ul></div>
+    </div>
+  </section>
+
+  <section class="s-section s-reveal" id="prices">
+    <header class="s-section__head"><h2>Игры и цены</h2><p>Цены – из карточки на Яндекс.Картах. Условия для компаний называем по заявке.</p></header>
+    <div class="s-board"><div class="s-board__group">
+      <h3 class="s-board__title">Игры</h3>
+      <ul class="s-board__list">
+        <li class="s-board__row"><span class="s-board__name">Эйнштейн квиз<em>командная игра, вопросы разных тем</em></span><span class="s-board__dots" aria-hidden="true"></span><span class="s-board__price">700 ₽</span></li>
+        <li class="s-board__row"><span class="s-board__name">Детективный квиз<em>2,5 часа</em></span><span class="s-board__dots" aria-hidden="true"></span><span class="s-board__price">700 ₽</span></li>
+      </ul>
+    </div>
+<div class="s-board__group">
+      <h3 class="s-board__title">Для компаний</h3>
+      <ul class="s-board__list">
+        <li class="s-board__row"><span class="s-board__name">Корпоратив или тимбилдинг<em>формат, число гостей и счёт – по заявке</em></span><span class="s-board__dots" aria-hidden="true"></span><span class="s-board__price">уточнить</span></li>
+      </ul>
+    </div></div>
+    <p class="s-note">Расписание и свободные места подтверждаем при записи, до оплаты.</p>
+  </section>
+
+  <section class="s-section s-reveal">
+    <header class="s-section__head"><h2>Как пройдёт ваш вечер</h2></header>
+    <ol class="s-steps">
+      <li class="s-steps__item"><span class="s-steps__n">01</span><h3>Собираете команду</h3><p>Друзья, семья или коллеги. Каждый берёт на себя свою тему.</p></li>
+      <li class="s-steps__item"><span class="s-steps__n">02</span><h3>Записываетесь на игру</h3><p>Выбираете день и время на сайте или пишете в мессенджер.</p></li>
+      <li class="s-steps__item"><span class="s-steps__n">03</span><h3>Приходите и занимаете стол</h3><p>Центр города, третий этаж. Знакомимся и объясняем правила.</p></li>
+      <li class="s-steps__item"><span class="s-steps__n">04</span><h3>Играете по раундам</h3><p>Вопросы разных тем, команда обсуждает и записывает ответ.</p></li>
+      <li class="s-steps__item"><span class="s-steps__n">05</span><h3>Розыгрыши и призы</h3><p>Подводим итоги вечера и награждаем сильнейших.</p></li>
+    </ol>
+  </section>
+
+  <section class="rib" data-rib aria-label="Из отзыва">
+    <div class="rib__stick">
+      <canvas class="rib__cv" aria-hidden="true"></canvas>
+      <p class="rib__kick">Из отзыва · 5,0 на Яндекс.Картах</p>
+      <h2 class="rib__sr">Скучно точно не будет</h2>
+      <p class="rib__who">Марина Константинова, 19 августа: «Весело, интересно, вопросы разноплановые, скучно точно не будет!»</p>
+    </div>
+  </section>
+
+  <section class="s-photos s-reveal" aria-label="Фото"><figure><img class="" src="assets/talk.webp" alt="Ведущий с микрофоном читает вопрос залу" loading="lazy" decoding="async"><figcaption>Ведущий читает вопрос – команды обсуждают</figcaption></figure><figure><img class="" src="assets/duo.webp" alt="Команда склонилась над бланком с ответами" loading="lazy" decoding="async"><figcaption>Ответ записывает вся команда</figcaption></figure><figure><img class="" src="assets/studio.webp" alt="Зал с деревянными столами и бланками перед началом игры" loading="lazy" decoding="async"><figcaption>Зал перед игрой: столы, бланки, тёплый свет</figcaption></figure></section>
+
+  <section class="s-section s-reveal">
+    <header class="s-section__head"><h2>Почему к нам возвращаются</h2></header>
+    <ul class="s-promises">
+      <li><h3>Вопросы на любой вкус</h3><p>От классики до музыки и кино – каждый в команде проявит себя.</p></li>
+      <li><h3>Отличная механика</h3><p>Организаторы ведут игру так, что скучно не бывает.</p></li>
+      <li><h3>Розыгрыши и призы</h3><p>В отзывах гости отмечают много разных розыгрышей.</p></li>
+      <li><h3>Для друзей, семьи и коллег</h3><p>Приходят компанией, парой и целой командой.</p></li>
+    </ul>
+  </section>
+
+  <section class="s-section s-reveal">
+    <header class="s-section__head s-section__head--reviews"><h2>Отзывы с Яндекс.Карт</h2><p class="s-reviews__rating"><span class="s-reviews__num">5,0</span><span class="s-reviews__stars" style="--r: 5" aria-label="рейтинг 5,0 из 5"></span><span class="s-reviews__count">26 отзывов</span><a class="s-reviews__all" href="https://yandex.ru/maps/org/eynshteyn_kviz/186960396513/reviews/" target="_blank" rel="noopener">Читать все отзывы на Яндекс.Картах</a></p></header>
+    <ul class="s-reviews">
+      <li><blockquote>«Замечательное место для командного отдыха в центре города. Квизы организованы профессионально: вопросы охватывают самые разные темы — от классики до современных трендов, музыки и кино, так что каждый в команде сможет проявить себя.»</blockquote><p class="s-reviews__who">Кирилл Я. · 23 апреля</p></li>
+      <li><blockquote>«Отличное место для отдыха в компании! Весело, интересно, вопросы разноплановые, скучно точно не будет! Всем рекомендую с семьей, друзьями, коллегами!»</blockquote><p class="s-reviews__who">Марина Константинова · 19 августа</p></li>
+      <li><blockquote>«Отличная механика и организаторы, много разных розыгрышей и призов. Удобное месторасположение в центре, вкусная еда.»</blockquote><p class="s-reviews__who">Ирина М. · 25 апреля</p></li>
+    </ul>
+    <p class="s-note">Отзывы с карточки на Яндекс.Картах, без правок.</p>
+  </section>
+
+  <section class="s-section s-reveal">
+    <header class="s-section__head"><h2>Частые вопросы</h2></header>
+    <div class="s-faq"><details><summary>Нужно ли быть эрудитом?</summary><p>Нет. Вопросы разные, в команде у каждого найдётся своя тема.</p></details><details><summary>Сколько длится игра?</summary><p>Детективный квиз – 2,5 часа. Длительность остальных игр уточним при записи.</p></details><details><summary>Можно ли провести корпоратив или тимбилдинг?</summary><p>Да, в карточке указаны корпоративы и тимбилдинги. Формат и цену обсудим по заявке.</p></details><details><summary>Как записаться?</summary><p>Выберите игру, день и время на сайте, мы подтвердим запись. Можно и позвонить: +7 (902) 150-03-47.</p></details></div>
+  </section>
+
+  <section class="s-section s-final s-reveal" id="contacts">
+    <header class="s-section__head"><h2>Соберите команду и запишитесь на игру</h2></header>
+    <div class="s-contacts">
+      <dl>
+        <div><dt>Адрес</dt><dd>Екатеринбург, ул. Шейнкмана, 57, этаж 3, офис 315</dd></div>
+        <div><dt>Часы</dt><dd>до 21:00, по записи</dd></div>
+        <div><dt>Телефон</dt><dd><a href="tel:+79021500347">+7 (902) 150-03-47</a></dd></div>
+      </dl>
+      <div class="s-contacts__actions">
+        <a class="s-btn" href="#widget">Записаться на игру</a>
+        <a class="s-btn s-btn--ghost" data-s-msg="whatsapp" href="#">WhatsApp</a>
+        
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="s-foot"><p>Эйнштейн квиз · Екатеринбург</p><p>Квизы, корпоративы и тимбилдинги в Екатеринбурге – по записи</p><span class="sign"><img src="assets/brand-mark.webp" alt="" width="44" height="44" loading="lazy">Автор сайта: Антонина Логутенкова</span></footer>
+<nav class="s-dock" aria-label="Быстрая связь"><a class="s-btn" href="#widget">Записаться на игру</a><a class="s-btn s-btn--ghost" href="tel:+79021500347">Позвонить</a></nav>
+<script src="style.js" defer></script>
+<script>
+(() => {
+  const sec = document.querySelector("[data-rib]"); if (!sec) return;
+  const cv = sec.querySelector(".rib__cv"), ctx = cv.getContext("2d");
+  const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const cs = getComputedStyle(document.documentElement);
+  const css = (n, d) => (cs.getPropertyValue(n) || "").trim() || d;
+  const ACC = css("--c-accent", "#c9f24a"), CANVAS = css("--c-canvas", "#131511");
+  const PHRASE = "Скучно точно не будет";
+  const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
+  const sm = (x) => { x = clamp(x); return x * x * (3 - 2 * x); };
+  let W = 0, H = 0, dpr = 1, w = 90, u = reduce ? 0.85 : 0, uT = u, run = false, raf = 0, t0 = performance.now();
+  let tokens = [], period = 0, fs = 40, fontStr = "";
+
+  function size() {
+    const r = cv.getBoundingClientRect(); dpr = Math.min(devicePixelRatio || 1, 2);
+    W = Math.max(1, r.width); H = Math.max(1, r.height);
+    cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr);
+    w = clamp(Math.min(H * 0.12, W * 0.17), 52, 104); fs = w * 0.5;
+    fontStr = "700 " + fs + 'px "Unbounded","Arial Black",system-ui,sans-serif';
+    ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.font = fontStr;
+    tokens = []; const gap = fs * 0.5; let off = 0;
+    const star = { star: true, w: fs * 0.9 };
+    const word = { chars: [...PHRASE].map((c) => ({ c, w: ctx.measureText(c).width })) };
+    word.w = word.chars.reduce((a, b) => a + b.w, 0);
+    for (const t of [word, star]) { t.off = off; off += t.w + gap * 1.6; tokens.push(t); }
+    period = off;
+  }
+
+  // центральная линия: плоская волна, затем спираль-свиток (кривизна растёт с накопленным углом)
+  function build(t) {
+    const pts = [], ds = 5;
+    const Lf = W * 0.5 + u * W * 1.45;
+    const lam = Math.max(120, W * 0.15), A = 0.15;
+    let x = -W * 0.3, y = H * 0.4, s = 0, th = 0;
+    while (s < Lf) {
+      th = 0.03 + A * Math.sin(s / lam * 2 - t * 0.6);
+      pts.push({ x, y, th, s, phi: 0 }); x += Math.cos(th) * ds; y += Math.sin(th) * ds; s += ds;
+    }
+    const k0 = 1 / (w * 2.4), k1 = 1 / (w * 0.5), THETA = Math.PI * 3.3;
+    let phi = 0, sr = 0;
+    while (phi < THETA && pts.length < 2400) {
+      const k = (k0 + (k1 - k0) * (phi / THETA)) * sm(sr / (w * 1.6));
+      pts.push({ x, y, th, s, phi }); th += k * ds; phi += Math.max(0, k * ds); x += Math.cos(th) * ds; y += Math.sin(th) * ds; s += ds; sr += ds;
+    }
+    return pts;
+  }
+
+  function strip(pts, i0, i1, dx, dy) {
+    ctx.beginPath();
+    for (let i = i0; i <= i1; i++) { const p = pts[i], nx = -Math.sin(p.th) * w / 2, ny = Math.cos(p.th) * w / 2; i === i0 ? ctx.moveTo(p.x - nx + dx, p.y - ny + dy) : ctx.lineTo(p.x - nx + dx, p.y - ny + dy); }
+    for (let i = i1; i >= i0; i--) { const p = pts[i], nx = -Math.sin(p.th) * w / 2, ny = Math.cos(p.th) * w / 2; ctx.lineTo(p.x + nx + dx, p.y + ny + dy); }
+    ctx.closePath();
+  }
+
+  function starAt(cx, cy, r) {
+    ctx.beginPath();
+    for (let i = 0; i < 8; i++) { const a = i * Math.PI / 4 - Math.PI / 2, rr = i % 2 ? r * 0.28 : r; i ? ctx.lineTo(cx + Math.cos(a) * rr, cy + Math.sin(a) * rr) : ctx.moveTo(cx + Math.cos(a) * rr, cy + Math.sin(a) * rr); }
+    ctx.closePath(); ctx.fill();
+  }
+
+  function at(pts, s) { const i = Math.round(s / 5); return i >= 0 && i < pts.length ? pts[i] : null; }
+
+  function draw(now) {
+    const t = (now - t0) / 1000;
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0); ctx.clearRect(0, 0, W, H);
+    const pts = build(t), n = pts.length;
+    // тень
+    ctx.fillStyle = "rgba(0,0,0,.35)"; strip(pts, 0, n - 1, 0, 14); ctx.fill();
+    // лента: сегментами, на свитке оттенок меняется с углом
+    for (let i = 0; i < n - 1; i += 2) {
+      const p = pts[i], sh = p.phi > 0 ? 0.5 - 0.5 * Math.cos(p.phi) : 0;
+      ctx.fillStyle = sh > 0.02 ? "color-mix(in srgb, " + ACC + " " + Math.round(100 - sh * 55) + "%, " + CANVAS + ")" : ACC;
+      strip(pts, i, Math.min(n - 1, i + 2), 0, 0); ctx.fill(); ctx.strokeStyle = ctx.fillStyle; ctx.lineWidth = 1.5; ctx.stroke();
+    }
+    // края ленты и пунктир вдоль краёв
+    ctx.strokeStyle = "rgba(17,20,6,.28)"; ctx.lineWidth = 1;
+    for (const sgn of [-0.5, 0.5]) { ctx.beginPath(); pts.forEach((p, i) => { const x = p.x + sgn * -Math.sin(p.th) * w, y = p.y + sgn * Math.cos(p.th) * w; i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }); ctx.stroke(); }
+    ctx.setLineDash([6, 6]); ctx.strokeStyle = "rgba(17,20,6,.35)";
+    for (const sgn of [-0.36, 0.36]) { ctx.beginPath(); pts.forEach((p, i) => { const x = p.x + sgn * -Math.sin(p.th) * w, y = p.y + sgn * Math.cos(p.th) * w; i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); }); ctx.stroke(); }
+    ctx.setLineDash([]);
+    // текст по ленте: по центру кадра ярче, к краям – «призраки»
+    const shift = -u * W * 0.55 + t * 16, last = pts[n - 1].s;
+    ctx.font = fontStr; ctx.textBaseline = "middle";
+    const k0 = Math.floor((-W * 0.3 - shift) / period) - 1, k1 = Math.ceil((last - shift) / period) + 1;
+    for (let k = k0; k <= k1; k++) for (const tk of tokens) {
+      const base = k * period + tk.off + shift;
+      if (tk.star) {
+        const p = at(pts, base + tk.w / 2); if (!p || p.phi > Math.PI * 1.2) continue;
+        ctx.fillStyle = "rgba(17,20,6," + (0.5 * (1 - sm(p.phi / 4))) + ")"; starAt(p.x, p.y, fs * 0.4);
+        continue;
+      }
+      let o = 0;
+      for (const ch of tk.chars) {
+        const mid = base + o + ch.w / 2; o += ch.w;
+        const p = at(pts, mid); if (!p || p.phi > Math.PI * 1.6) continue;
+        const d = Math.abs(p.x - W / 2) / (W * 0.34), a = (0.16 + 0.84 * (1 - sm(d))) * (1 - sm(p.phi / 5));
+        if (a < 0.03) continue;
+        ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(p.th); ctx.fillStyle = "rgba(17,20,6," + a + ")"; ctx.fillText(ch.c, -ch.w / 2, 1); ctx.restore();
+      }
+    }
+  }
+
+  function progress() {
+    const r = sec.getBoundingClientRect(), span = r.height - innerHeight;
+    uT = span > 0 ? clamp(-r.top / span) : 0.85;
+  }
+  function frame(now) {
+    if (!run) return;
+    progress(); u += (uT - u) * 0.14; draw(now); raf = requestAnimationFrame(frame);
+  }
+  function start() { if (run || reduce) return; run = true; raf = requestAnimationFrame(frame); }
+  function stop() { run = false; cancelAnimationFrame(raf); }
+  size(); draw(performance.now());
+  (document.fonts && document.fonts.ready || Promise.resolve()).then(() => { size(); draw(performance.now()); });
+  addEventListener("resize", () => { size(); draw(performance.now()); });
+  new IntersectionObserver((e) => { e[0].isIntersecting ? start() : stop(); }, { threshold: 0 }).observe(sec);
+})();
+</script>
+</body>
+</html>
